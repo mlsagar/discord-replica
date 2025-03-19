@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { ClerkSignInComponent } from 'ngx-clerk';
+import { Router } from '@angular/router';
+import { ClerkService, ClerkSignInComponent } from 'ngx-clerk';
 
 @Component({
   selector: 'app-login',
@@ -8,5 +9,9 @@ import { ClerkSignInComponent } from 'ngx-clerk';
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
-
+  constructor(
+    private _clerk: ClerkService,
+    private _router: Router
+  ) {
+  }
 }
