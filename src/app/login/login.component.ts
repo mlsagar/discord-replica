@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { ClerkService, ClerkSignInComponent } from 'ngx-clerk';
 
 @Component({
   selector: 'app-login',
-  imports: [ClerkSignInComponent],
+  imports: [ClerkSignInComponent, RouterLink],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
