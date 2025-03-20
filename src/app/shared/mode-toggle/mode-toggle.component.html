@@ -1,0 +1,8 @@
+<button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Icon to select mode">
+    <span  *ngIf="darkMode()" class="material-icons">dark_mode</span>
+      <span *ngIf="!darkMode()" class="material-icons">light_mode</span>
+</button>
+<mat-menu #menu="matMenu">
+    <button mat-menu-item (click)="darkMode.set(false)">Light</button>
+    <button mat-menu-item (click)="darkMode.set(true)">Dark</button>
+</mat-menu>
