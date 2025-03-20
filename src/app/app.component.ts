@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { ClerkService, ClerkSignInComponent } from 'ngx-clerk';
+import { ClerkService, ClerkSignInComponent } from 'ngx-clerk-iliad';
 
 @Component({
   selector: 'app-root',

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ClerkUserButtonComponent, ClerkUserProfileComponent } from 'ngx-clerk';
+import { ClerkUserButtonComponent, ClerkUserProfileComponent } from 'ngx-clerk-iliad';
 
 @Component({
   selector: 'app-home',

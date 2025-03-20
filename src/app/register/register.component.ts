@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ClerkSignUpComponent } from 'ngx-clerk';
+import { ClerkSignUpComponent } from 'ngx-clerk-iliad';
 
 @Component({
   selector: 'app-register',
