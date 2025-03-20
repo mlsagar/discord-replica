@@ -6,7 +6,7 @@ import { ClerkService, ClerkSignInComponent } from 'ngx-clerk';
   selector: 'app-login',
   imports: [ClerkSignInComponent],
   templateUrl: './login.component.html',
-  styleUrl: './login.component.css'
+  styleUrl: './login.component.scss'
 })
 export class LoginComponent {
   constructor(

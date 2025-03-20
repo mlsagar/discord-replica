@@ -5,7 +5,7 @@ import { ClerkUserButtonComponent, ClerkUserProfileComponent } from 'ngx-clerk';
   selector: 'app-home',
   imports: [ClerkUserButtonComponent, ClerkUserProfileComponent],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrl: './home.component.scss'
 })
 export class HomeComponent {
 

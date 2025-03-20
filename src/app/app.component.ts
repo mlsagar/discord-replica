@@ -6,7 +6,7 @@ import { ClerkService, ClerkSignInComponent } from 'ngx-clerk';
   selector: 'app-root',
   imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'discord-replica';

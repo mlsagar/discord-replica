@@ -5,7 +5,7 @@ import { ClerkSignUpComponent } from 'ngx-clerk';
   selector: 'app-register',
   imports: [ClerkSignUpComponent],
   templateUrl: './register.component.html',
-  styleUrl: './register.component.css'
+  styleUrl: './register.component.scss'
 })
 export class RegisterComponent {
 
