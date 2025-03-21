@@ -1,4 +1,4 @@
-<div class="min-h-screen min-w-full bg-slate-200 dark:bg-slate-700">
+<!-- <div class="min-h-screen min-w-full bg-slate-200 dark:bg-slate-700">
   <div class="flex justify-between  items-center bg-teal-600 dark:bg-slate-900 text-white p-5 font-semibold text-lg shadow-lg">
     Dark Mode with Angular and TailwindCSS
     <button (click)="darkMode.set(!darkMode())" class="flex transition-transform hover:scale-125 align-middle">
@@ -6,6 +6,9 @@
       <span *ngIf="darkMode()" class="material-icons">light_mode</span>
     </button>
   </div>
+</div> -->
+<div class="min-w-full bg-slate-200 dark:bg-slate-700">
+  <app-mode-toggle />
 </div>
 <div class="h-full flex items-center justify-center">
   <router-outlet />

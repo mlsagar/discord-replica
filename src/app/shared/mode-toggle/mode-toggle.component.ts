@@ -27,11 +27,4 @@ export class ModeToggleComponent {
       window.localStorage.setItem('darkMode', JSON.stringify(this.darkMode()));
     });
   }
-
-
-  // @ViewChild(MatMenuTrigger) trigger!: MatMenuTrigger;
-
-  // someMethod() {
-  //   this.trigger.openMenu();
-  // }
 }
